@@ -1,0 +1,29 @@
+{
+  "name": "P2P SERVER",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "chromium-args": "--disable-devtools",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/",
+    "draw": "node draw.js"
+  },
+  "keywords": [],
+  "author": "iGor",
+  "license": "ISC",
+  "window": {
+    "icon": "./src/icon.png",
+	"show": true,
+	"min_width": 500,
+	"min_height": 80,
+    "show_in_taskbar": true
+  },
+  "devDependencies": {
+    "nw": "^0.83.0-sdk",
+    "nw-builder": "^4.6.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}

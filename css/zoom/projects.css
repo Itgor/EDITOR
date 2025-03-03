@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+ul.projects {
+  list-style: none;
+}
+
+ul.projects, ul.projects li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.projects li {
+  margin: 0.3em 0;
+}
+
+ul.projects li a.name {
+  font-weight: bold;
+}
+
+h3.section {
+    border-bottom: solid 1px #999;
+}

@@ -1,0 +1,22 @@
+body {
+	behavior: url(/themes/gear-orange/css/csshover3.htc);
+}
+
+.contents {
+  height: expression('400px');
+}
+p.code {
+  /*position: relative;
+  overflow-y: hidden;
+  overflow-x: auto;*/
+  height: expression(this.clientHeight > this.scrollHeight ? this.scrollHeight + (this.scrollHeight - this.clientHeight) + "px": "auto");
+}
+
+a.button img {
+    vertical-align: -32%;
+}
+
+div#nav ul li {
+	xfloat: left;
+	display: inline;
+}
